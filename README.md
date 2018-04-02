@@ -46,7 +46,7 @@ In order to find optimum cluster in our dataset, we can use Elbow Method.
 In Elbow method,The idea of the Elbow method is to run k-means clustering on the dataset for a range of values of k (say, k from 1 to 40 in the examples above), and for each value of k calculate the sum of squared errors. then the "elbow" on the arm is the value of k that is the best. The idea is that we want a small SSE, but that the SSE tends to decrease toward 0 as we increase k.So, our goal is to choose a small value of k that still has a low SSE, and the elbow usually represents where we start to have diminishing returns by increasing k.
 Using elbow method, I found approximately 30 clusters are optimum to describe out dataset
 
-To prevent from random initialization trap, we have used “K-means++” initialization in our model
+To prevent from random initialization trap, we have used **“K-means++”** initialization in our model
 As we can see that, After 30 clusters the sum of squared errors (SSE) do not seems to vary anymore.
 
 **Measuring Cluster Quality**
