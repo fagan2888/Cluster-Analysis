@@ -36,9 +36,13 @@ The approach we are utilizing here is **K-means clustering**, in which we are wi
 **K-Means Clustering Alorithm**
 
 The K-means clustering is unsupervised algorithm used to group different object into clusters.The K-means clustering involves following steps:
+
 1.Define the number of clusters
+
 2.Determine the centroid coordinate
+
 3.Determine the distance of each object to the centroids
+
 4.Group the objects based on minimum distance
 
 
