@@ -4,11 +4,16 @@ Scenario: Variation in names leads to difficulty in identifying a unique person 
 of records is an unsolved challenge. The problem becomes more complicated in cases where 
 data is coming from multiple sources. Following variations are same as Vladimir Frometa: 
  
-Vladimir Antonio Frometa Garo 
-Vladimir A Frometa Garo 
-Vladimir Frometa 
-Vladimir Frometa G 
-Vladimir A Frometa 
+Vladimir Antonio Frometa Garo
+
+Vladimir A Frometa Garo
+
+Vladimir Frometa
+
+Vladimir Frometa G
+
+Vladimir A Frometa
+
 Vladimir A Frometa G 
 
 Problem Statement: Train a model to identify unique patients in the sample dataset
@@ -47,6 +52,6 @@ As we can see that, After 30 clusters the sum of squared errors (SSE) do not see
 **Measuring Cluster Quality**
 
 Once, we have finalised the optimum number of clusters by Elbow method. Dimensional reduction technique (Principal Component Analysis) is used to visualise the unique clusters in 2 dimensional space.
-Goodness of clustering is evaluated by considering how well the clusters are separated and how compact the cluster are, e.g., levenshtein distance between the centroid and their points in the individual distance
+Goodness of clustering is evaluated by considering how well the clusters are separated and how compact the cluster are, e.g., Euclidean distance between the centroid and their points in the individual distance
 
 
